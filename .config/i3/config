@@ -154,6 +154,6 @@ set $col #E64553
 client.focused $col # $col $col $col
 
 # start a web browser
-bindsym $mod+o exec firefox
+bindsym $mod+o exec chromium
 # start spotify
 bindsym $mod+p exec spotify
