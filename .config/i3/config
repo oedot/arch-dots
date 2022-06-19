@@ -1,4 +1,4 @@
-# 
+#
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -157,3 +157,6 @@ client.focused $col # $col $col $col
 bindsym $mod+o exec chromium
 # start spotify
 bindsym $mod+p exec spotify
+
+#
+bindsym $mod+x exec dunstctl close-all
