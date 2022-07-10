@@ -156,7 +156,7 @@ client.focused $col # $col $col $col
 # start a web browser
 bindsym $mod+o exec chromium
 # start spotify
-bindsym $mod+p exec spotify
+bindsym $mod+p exec flatpak run com.spotify.Client
 
 #
 bindsym $mod+x exec dunstctl close-all
