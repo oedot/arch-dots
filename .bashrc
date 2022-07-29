@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
 
-export VISUAL=~/code-wait.sh
-export EDITOR=~/code-wait.sh
+export VISUAL=lvim
+export EDITOR=lvim
 
-alias code="flatpak run com.visualstudio.code"
+export PATH="$PATH:/home/oe/.local/bin/"
